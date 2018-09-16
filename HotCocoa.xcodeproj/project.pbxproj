@@ -8,11 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		C38F9045F84309DA5A3ABB4F /* Window+HotCocoa.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38F9235DEF53828663FD4B8 /* Window+HotCocoa.swift */; };
+		C38F908712CB644A3A4CF025 /* TableViewCompatible.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38F984A55C1B696CF276CE9 /* TableViewCompatible.swift */; };
 		C38F917A5D62FBD4C00F625A /* Window+HotCocoa.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38F9235DEF53828663FD4B8 /* Window+HotCocoa.swift */; };
 		C38F9269117E609C57BB16E6 /* Color+HotCocoa.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38F940E127440797E32BB1A /* Color+HotCocoa.swift */; };
 		C38F92CD5C779C31DE6A53DC /* Abstraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38F9FD377DDD3D4A03E099A /* Abstraction.swift */; };
 		C38F92FE1044B6760CBCB791 /* Color+HotCocoa.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38F940E127440797E32BB1A /* Color+HotCocoa.swift */; };
 		C38F93449693C36C26F8E484 /* ViewController+HotCocoa.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38F90FA42B20BB75AD7ABEA /* ViewController+HotCocoa.swift */; };
+		C38F9384B7446905F97AC005 /* SegueHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38F9556CC3A7941783C775A /* SegueHandler.swift */; };
 		C38F93DF88851C4759E25964 /* Button+HotCocoa.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38F93CDF2C1CAB15E1D972D /* Button+HotCocoa.swift */; };
 		C38F949FFF76C7189C41671B /* ViewController+HotCocoa.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38F90FA42B20BB75AD7ABEA /* ViewController+HotCocoa.swift */; };
 		C38F95A519B7BAFA6D717583 /* TextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38F9FAAFBFC89338780C31A /* TextField.swift */; };
@@ -21,9 +23,13 @@
 		C38F97956D7E277AB5F95F68 /* Color+HotCocoa.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38F940E127440797E32BB1A /* Color+HotCocoa.swift */; };
 		C38F9891A7A8DAE684856432 /* Window+HotCocoa.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38F9235DEF53828663FD4B8 /* Window+HotCocoa.swift */; };
 		C38F98CAC125806E6D9F8C21 /* Abstraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38F9FD377DDD3D4A03E099A /* Abstraction.swift */; };
+		C38F98DC66821F5E327413D9 /* TableViewCompatible.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38F984A55C1B696CF276CE9 /* TableViewCompatible.swift */; };
+		C38F9A7C7BB90E0EDA214FCF /* SegueHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38F9556CC3A7941783C775A /* SegueHandler.swift */; };
+		C38F9B2FE74DC3BD2811D5DE /* SegueHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38F9556CC3A7941783C775A /* SegueHandler.swift */; };
 		C38F9B30D17B3B70E300FAD5 /* Button+HotCocoa.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38F93CDF2C1CAB15E1D972D /* Button+HotCocoa.swift */; };
 		C38F9C55BB767A1C7AD8E2C2 /* ViewController+HotCocoa.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38F90FA42B20BB75AD7ABEA /* ViewController+HotCocoa.swift */; };
 		C38F9DB8ED16EC345A086966 /* TextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38F9FAAFBFC89338780C31A /* TextField.swift */; };
+		C38F9E1E7559FD7FF673A6C7 /* TableViewCompatible.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38F984A55C1B696CF276CE9 /* TableViewCompatible.swift */; };
 		C38F9E40AE751B487779127A /* Button+HotCocoa.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38F93CDF2C1CAB15E1D972D /* Button+HotCocoa.swift */; };
 		E3C91030214ECA4800FCCA60 /* HotCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3C91026214ECA4800FCCA60 /* HotCocoa.framework */; };
 		E3C91035214ECA4800FCCA60 /* HotCocoaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C91034214ECA4800FCCA60 /* HotCocoaTests.swift */; };
@@ -68,6 +74,8 @@
 		C38F9235DEF53828663FD4B8 /* Window+HotCocoa.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Window+HotCocoa.swift"; sourceTree = "<group>"; };
 		C38F93CDF2C1CAB15E1D972D /* Button+HotCocoa.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Button+HotCocoa.swift"; sourceTree = "<group>"; };
 		C38F940E127440797E32BB1A /* Color+HotCocoa.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Color+HotCocoa.swift"; sourceTree = "<group>"; };
+		C38F9556CC3A7941783C775A /* SegueHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SegueHandler.swift; sourceTree = "<group>"; };
+		C38F984A55C1B696CF276CE9 /* TableViewCompatible.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCompatible.swift; sourceTree = "<group>"; };
 		C38F9FAAFBFC89338780C31A /* TextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextField.swift; sourceTree = "<group>"; };
 		C38F9FD377DDD3D4A03E099A /* Abstraction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Abstraction.swift; sourceTree = "<group>"; };
 		E3C91026214ECA4800FCCA60 /* HotCocoa.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HotCocoa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -136,6 +144,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C38F9354F1B7152E44752EB1 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				C38F984A55C1B696CF276CE9 /* TableViewCompatible.swift */,
+				C38F9556CC3A7941783C775A /* SegueHandler.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
 		E3C9101C214ECA4800FCCA60 = {
 			isa = PBXGroup;
 			children = (
@@ -167,6 +184,7 @@
 				E3C91029214ECA4800FCCA60 /* HotCocoa.h */,
 				E3C9102A214ECA4800FCCA60 /* Info.plist */,
 				C38F9FD377DDD3D4A03E099A /* Abstraction.swift */,
+				C38F9354F1B7152E44752EB1 /* Protocols */,
 			);
 			path = HotCocoa;
 			sourceTree = "<group>";
@@ -459,6 +477,8 @@
 				C38F917A5D62FBD4C00F625A /* Window+HotCocoa.swift in Sources */,
 				C38F9E40AE751B487779127A /* Button+HotCocoa.swift in Sources */,
 				C38F9DB8ED16EC345A086966 /* TextField.swift in Sources */,
+				C38F98DC66821F5E327413D9 /* TableViewCompatible.swift in Sources */,
+				C38F9A7C7BB90E0EDA214FCF /* SegueHandler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -481,6 +501,8 @@
 				C38F9045F84309DA5A3ABB4F /* Window+HotCocoa.swift in Sources */,
 				C38F93DF88851C4759E25964 /* Button+HotCocoa.swift in Sources */,
 				C38F96DEC3A58F825342C436 /* TextField.swift in Sources */,
+				C38F9E1E7559FD7FF673A6C7 /* TableViewCompatible.swift in Sources */,
+				C38F9384B7446905F97AC005 /* SegueHandler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -503,6 +525,8 @@
 				C38F9891A7A8DAE684856432 /* Window+HotCocoa.swift in Sources */,
 				C38F9B30D17B3B70E300FAD5 /* Button+HotCocoa.swift in Sources */,
 				C38F95A519B7BAFA6D717583 /* TextField.swift in Sources */,
+				C38F908712CB644A3A4CF025 /* TableViewCompatible.swift in Sources */,
+				C38F9B2FE74DC3BD2811D5DE /* SegueHandler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

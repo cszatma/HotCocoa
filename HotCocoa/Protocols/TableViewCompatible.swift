@@ -18,28 +18,14 @@
 //    OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 //    THE SOFTWARE.
 
-import Foundation
-
 #if os(macOS)
     import AppKit
-
-    public typealias HCButton = NSButton
-    public typealias HCColor = NSColor
-    public typealias HCStoryboardSegue = NSStoryboardSegue
-    public typealias HCTableView = NSTableView
-    public typealias HCTextField = NSTextField
-    public typealias HCViewController = NSViewController
-    public typealias HCView = NSView
-    public typealias HCWindow = NSWindow
 #else
     import UIKit
-
-    public typealias HCButton = UIButton
-    public typealias HCColor = UIColor
-    public typealias HCStoryboardSegue = UIStoryboardSegue
-    public typealias HCTableView = UITableView
-    public typealias HCTextField = UITextField
-    public typealias HCViewController = UIViewController
-    public typealias HCView = UIView
-    public typealias HCWindow = UIWindow
 #endif
+
+protocol TableViewCompatible {
+    #if os(iOS) || os(tvOS)
+    func cellForTableView(_ tableView: UITableView, atIndexPath indexPath: IndexPath) -> UITableViewCell
+    #endif
+}
