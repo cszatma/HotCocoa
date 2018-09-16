@@ -95,6 +95,9 @@
 		E3C91070214ECD3900FCCA60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E3C91081214ED58900FCCA60 /* View+HotCocoa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+HotCocoa.swift"; sourceTree = "<group>"; };
 		E3C91085214EF0AA00FCCA60 /* UserDefaults+HotCocoa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserDefaults+HotCocoa.swift"; sourceTree = "<group>"; };
+		E3C91088214EF75100FCCA60 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		E3C91089214EF75100FCCA60 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		E3C9108A214EF76300FCCA60 /* HotCocoa.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = HotCocoa.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,6 +161,7 @@
 		E3C9101C214ECA4800FCCA60 = {
 			isa = PBXGroup;
 			children = (
+				E3C91087214EF73000FCCA60 /* Metadata */,
 				E3C91028214ECA4800FCCA60 /* HotCocoa */,
 				E3C91033214ECA4800FCCA60 /* HotCocoaTests */,
 				E3C91051214ECD2000FCCA60 /* HotCocoa-tvOSTests */,
@@ -230,6 +234,16 @@
 				E3C91085214EF0AA00FCCA60 /* UserDefaults+HotCocoa.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		E3C91087214EF73000FCCA60 /* Metadata */ = {
+			isa = PBXGroup;
+			children = (
+				E3C9108A214EF76300FCCA60 /* HotCocoa.podspec */,
+				E3C91089214EF75100FCCA60 /* LICENSE */,
+				E3C91088214EF75100FCCA60 /* README.md */,
+			);
+			name = Metadata;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -695,6 +709,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = HotCocoa/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -721,6 +736,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = HotCocoa/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -790,7 +806,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 11.4;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
 			};
 			name = Debug;
 		};
@@ -816,7 +832,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 11.4;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
 			};
 			name = Release;
 		};
@@ -876,7 +892,7 @@
 					"@executable_path/../Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.christopherszatmary.HotCocoa-macOS";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = macosx;
@@ -903,7 +919,7 @@
 					"@executable_path/../Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.christopherszatmary.HotCocoa-macOS";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = macosx;
