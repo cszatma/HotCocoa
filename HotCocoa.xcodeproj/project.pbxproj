@@ -10,6 +10,12 @@
 		E3C91030214ECA4800FCCA60 /* HotCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3C91026214ECA4800FCCA60 /* HotCocoa.framework */; };
 		E3C91035214ECA4800FCCA60 /* HotCocoaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C91034214ECA4800FCCA60 /* HotCocoaTests.swift */; };
 		E3C91037214ECA4800FCCA60 /* HotCocoa.h in Headers */ = {isa = PBXBuildFile; fileRef = E3C91029214ECA4800FCCA60 /* HotCocoa.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E3C9104E214ECD2000FCCA60 /* HotCocoa_tvOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3C91045214ECD2000FCCA60 /* HotCocoa_tvOS.framework */; };
+		E3C91053214ECD2000FCCA60 /* HotCocoa_tvOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C91052214ECD2000FCCA60 /* HotCocoa_tvOSTests.swift */; };
+		E3C9106A214ECD3900FCCA60 /* HotCocoa_macOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3C91061214ECD3900FCCA60 /* HotCocoa_macOS.framework */; };
+		E3C9106F214ECD3900FCCA60 /* HotCocoa_macOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C9106E214ECD3900FCCA60 /* HotCocoa_macOSTests.swift */; };
+		E3C91078214ECDF700FCCA60 /* HotCocoa.h in Headers */ = {isa = PBXBuildFile; fileRef = E3C91029214ECA4800FCCA60 /* HotCocoa.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E3C91079214ECDF800FCCA60 /* HotCocoa.h in Headers */ = {isa = PBXBuildFile; fileRef = E3C91029214ECA4800FCCA60 /* HotCocoa.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -20,6 +26,20 @@
 			remoteGlobalIDString = E3C91025214ECA4800FCCA60;
 			remoteInfo = HotCocoa;
 		};
+		E3C9104F214ECD2000FCCA60 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E3C9101D214ECA4800FCCA60 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E3C91044214ECD2000FCCA60;
+			remoteInfo = "HotCocoa-tvOS";
+		};
+		E3C9106B214ECD3900FCCA60 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E3C9101D214ECA4800FCCA60 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E3C91060214ECD3900FCCA60;
+			remoteInfo = "HotCocoa-macOS";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +49,14 @@
 		E3C9102F214ECA4800FCCA60 /* HotCocoaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HotCocoaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3C91034214ECA4800FCCA60 /* HotCocoaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotCocoaTests.swift; sourceTree = "<group>"; };
 		E3C91036214ECA4800FCCA60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3C91045214ECD2000FCCA60 /* HotCocoa_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HotCocoa_tvOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3C9104D214ECD2000FCCA60 /* HotCocoa-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HotCocoa-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3C91052214ECD2000FCCA60 /* HotCocoa_tvOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotCocoa_tvOSTests.swift; sourceTree = "<group>"; };
+		E3C91054214ECD2000FCCA60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3C91061214ECD3900FCCA60 /* HotCocoa_macOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HotCocoa_macOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3C91069214ECD3900FCCA60 /* HotCocoa-macOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HotCocoa-macOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3C9106E214ECD3900FCCA60 /* HotCocoa_macOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotCocoa_macOSTests.swift; sourceTree = "<group>"; };
+		E3C91070214ECD3900FCCA60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +75,36 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E3C91041214ECD2000FCCA60 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3C9104A214ECD2000FCCA60 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3C9104E214ECD2000FCCA60 /* HotCocoa_tvOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3C9105D214ECD3900FCCA60 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3C91066214ECD3900FCCA60 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3C9106A214ECD3900FCCA60 /* HotCocoa_macOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -55,6 +113,8 @@
 			children = (
 				E3C91028214ECA4800FCCA60 /* HotCocoa */,
 				E3C91033214ECA4800FCCA60 /* HotCocoaTests */,
+				E3C91051214ECD2000FCCA60 /* HotCocoa-tvOSTests */,
+				E3C9106D214ECD3900FCCA60 /* HotCocoa-macOSTests */,
 				E3C91027214ECA4800FCCA60 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -64,6 +124,10 @@
 			children = (
 				E3C91026214ECA4800FCCA60 /* HotCocoa.framework */,
 				E3C9102F214ECA4800FCCA60 /* HotCocoaTests.xctest */,
+				E3C91045214ECD2000FCCA60 /* HotCocoa_tvOS.framework */,
+				E3C9104D214ECD2000FCCA60 /* HotCocoa-tvOSTests.xctest */,
+				E3C91061214ECD3900FCCA60 /* HotCocoa_macOS.framework */,
+				E3C91069214ECD3900FCCA60 /* HotCocoa-macOSTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -71,6 +135,7 @@
 		E3C91028214ECA4800FCCA60 /* HotCocoa */ = {
 			isa = PBXGroup;
 			children = (
+				E3C9107A214ECF0600FCCA60 /* Extensions */,
 				E3C91029214ECA4800FCCA60 /* HotCocoa.h */,
 				E3C9102A214ECA4800FCCA60 /* Info.plist */,
 			);
@@ -86,6 +151,31 @@
 			path = HotCocoaTests;
 			sourceTree = "<group>";
 		};
+		E3C91051214ECD2000FCCA60 /* HotCocoa-tvOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				E3C91052214ECD2000FCCA60 /* HotCocoa_tvOSTests.swift */,
+				E3C91054214ECD2000FCCA60 /* Info.plist */,
+			);
+			path = "HotCocoa-tvOSTests";
+			sourceTree = "<group>";
+		};
+		E3C9106D214ECD3900FCCA60 /* HotCocoa-macOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				E3C9106E214ECD3900FCCA60 /* HotCocoa_macOSTests.swift */,
+				E3C91070214ECD3900FCCA60 /* Info.plist */,
+			);
+			path = "HotCocoa-macOSTests";
+			sourceTree = "<group>";
+		};
+		E3C9107A214ECF0600FCCA60 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -94,6 +184,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				E3C91037214ECA4800FCCA60 /* HotCocoa.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3C91042214ECD2000FCCA60 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3C91078214ECDF700FCCA60 /* HotCocoa.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3C9105E214ECD3900FCCA60 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3C91079214ECDF800FCCA60 /* HotCocoa.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,6 +242,78 @@
 			productReference = E3C9102F214ECA4800FCCA60 /* HotCocoaTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		E3C91044214ECD2000FCCA60 /* HotCocoa-tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E3C91056214ECD2000FCCA60 /* Build configuration list for PBXNativeTarget "HotCocoa-tvOS" */;
+			buildPhases = (
+				E3C91040214ECD2000FCCA60 /* Sources */,
+				E3C91041214ECD2000FCCA60 /* Frameworks */,
+				E3C91042214ECD2000FCCA60 /* Headers */,
+				E3C91043214ECD2000FCCA60 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HotCocoa-tvOS";
+			productName = "HotCocoa-tvOS";
+			productReference = E3C91045214ECD2000FCCA60 /* HotCocoa_tvOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E3C9104C214ECD2000FCCA60 /* HotCocoa-tvOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E3C91059214ECD2000FCCA60 /* Build configuration list for PBXNativeTarget "HotCocoa-tvOSTests" */;
+			buildPhases = (
+				E3C91049214ECD2000FCCA60 /* Sources */,
+				E3C9104A214ECD2000FCCA60 /* Frameworks */,
+				E3C9104B214ECD2000FCCA60 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E3C91050214ECD2000FCCA60 /* PBXTargetDependency */,
+			);
+			name = "HotCocoa-tvOSTests";
+			productName = "HotCocoa-tvOSTests";
+			productReference = E3C9104D214ECD2000FCCA60 /* HotCocoa-tvOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E3C91060214ECD3900FCCA60 /* HotCocoa-macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E3C91072214ECD3900FCCA60 /* Build configuration list for PBXNativeTarget "HotCocoa-macOS" */;
+			buildPhases = (
+				E3C9105C214ECD3900FCCA60 /* Sources */,
+				E3C9105D214ECD3900FCCA60 /* Frameworks */,
+				E3C9105E214ECD3900FCCA60 /* Headers */,
+				E3C9105F214ECD3900FCCA60 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HotCocoa-macOS";
+			productName = "HotCocoa-macOS";
+			productReference = E3C91061214ECD3900FCCA60 /* HotCocoa_macOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E3C91068214ECD3900FCCA60 /* HotCocoa-macOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E3C91075214ECD3900FCCA60 /* Build configuration list for PBXNativeTarget "HotCocoa-macOSTests" */;
+			buildPhases = (
+				E3C91065214ECD3900FCCA60 /* Sources */,
+				E3C91066214ECD3900FCCA60 /* Frameworks */,
+				E3C91067214ECD3900FCCA60 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E3C9106C214ECD3900FCCA60 /* PBXTargetDependency */,
+			);
+			name = "HotCocoa-macOSTests";
+			productName = "HotCocoa-macOSTests";
+			productReference = E3C91069214ECD3900FCCA60 /* HotCocoa-macOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -148,8 +326,21 @@
 				TargetAttributes = {
 					E3C91025214ECA4800FCCA60 = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 0940;
 					};
 					E3C9102E214ECA4800FCCA60 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					E3C91044214ECD2000FCCA60 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					E3C9104C214ECD2000FCCA60 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					E3C91060214ECD3900FCCA60 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					E3C91068214ECD3900FCCA60 = {
 						CreatedOnToolsVersion = 9.4.1;
 					};
 				};
@@ -168,6 +359,10 @@
 			targets = (
 				E3C91025214ECA4800FCCA60 /* HotCocoa */,
 				E3C9102E214ECA4800FCCA60 /* HotCocoaTests */,
+				E3C91044214ECD2000FCCA60 /* HotCocoa-tvOS */,
+				E3C9104C214ECD2000FCCA60 /* HotCocoa-tvOSTests */,
+				E3C91060214ECD3900FCCA60 /* HotCocoa-macOS */,
+				E3C91068214ECD3900FCCA60 /* HotCocoa-macOSTests */,
 			);
 		};
 /* End PBXProject section */
@@ -181,6 +376,34 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		E3C9102D214ECA4800FCCA60 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3C91043214ECD2000FCCA60 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3C9104B214ECD2000FCCA60 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3C9105F214ECD3900FCCA60 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3C91067214ECD3900FCCA60 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -205,6 +428,36 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E3C91040214ECD2000FCCA60 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3C91049214ECD2000FCCA60 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3C91053214ECD2000FCCA60 /* HotCocoa_tvOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3C9105C214ECD3900FCCA60 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3C91065214ECD3900FCCA60 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3C9106F214ECD3900FCCA60 /* HotCocoa_macOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -212,6 +465,16 @@
 			isa = PBXTargetDependency;
 			target = E3C91025214ECA4800FCCA60 /* HotCocoa */;
 			targetProxy = E3C91031214ECA4800FCCA60 /* PBXContainerItemProxy */;
+		};
+		E3C91050214ECD2000FCCA60 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E3C91044214ECD2000FCCA60 /* HotCocoa-tvOS */;
+			targetProxy = E3C9104F214ECD2000FCCA60 /* PBXContainerItemProxy */;
+		};
+		E3C9106C214ECD3900FCCA60 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E3C91060214ECD3900FCCA60 /* HotCocoa-macOS */;
+			targetProxy = E3C9106B214ECD3900FCCA60 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -339,6 +602,7 @@
 		E3C9103B214ECA4800FCCA60 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -355,6 +619,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.christopherszatmary.HotCocoa;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -363,6 +628,7 @@
 		E3C9103C214ECA4800FCCA60 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -418,6 +684,190 @@
 			};
 			name = Release;
 		};
+		E3C91057214ECD2000FCCA60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "HotCocoa-tvOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.christopherszatmary.HotCocoa-tvOS";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 11.4;
+			};
+			name = Debug;
+		};
+		E3C91058214ECD2000FCCA60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "HotCocoa-tvOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.christopherszatmary.HotCocoa-tvOS";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 11.4;
+			};
+			name = Release;
+		};
+		E3C9105A214ECD2000FCCA60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "HotCocoa-tvOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.christopherszatmary.HotCocoa-tvOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 11.4;
+			};
+			name = Debug;
+		};
+		E3C9105B214ECD2000FCCA60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "HotCocoa-tvOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.christopherszatmary.HotCocoa-tvOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 11.4;
+			};
+			name = Release;
+		};
+		E3C91073214ECD3900FCCA60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "HotCocoa-macOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.christopherszatmary.HotCocoa-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		E3C91074214ECD3900FCCA60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "HotCocoa-macOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.christopherszatmary.HotCocoa-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		E3C91076214ECD3900FCCA60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "HotCocoa-macOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.christopherszatmary.HotCocoa-macOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		E3C91077214ECD3900FCCA60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "HotCocoa-macOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.christopherszatmary.HotCocoa-macOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -444,6 +894,42 @@
 			buildConfigurations = (
 				E3C9103E214ECA4800FCCA60 /* Debug */,
 				E3C9103F214ECA4800FCCA60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E3C91056214ECD2000FCCA60 /* Build configuration list for PBXNativeTarget "HotCocoa-tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3C91057214ECD2000FCCA60 /* Debug */,
+				E3C91058214ECD2000FCCA60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E3C91059214ECD2000FCCA60 /* Build configuration list for PBXNativeTarget "HotCocoa-tvOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3C9105A214ECD2000FCCA60 /* Debug */,
+				E3C9105B214ECD2000FCCA60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E3C91072214ECD3900FCCA60 /* Build configuration list for PBXNativeTarget "HotCocoa-macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3C91073214ECD3900FCCA60 /* Debug */,
+				E3C91074214ECD3900FCCA60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E3C91075214ECD3900FCCA60 /* Build configuration list for PBXNativeTarget "HotCocoa-macOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3C91076214ECD3900FCCA60 /* Debug */,
+				E3C91077214ECD3900FCCA60 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
