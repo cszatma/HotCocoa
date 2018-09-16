@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C38F92CD5C779C31DE6A53DC /* Abstraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38F9FD377DDD3D4A03E099A /* Abstraction.swift */; };
+		C38F93449693C36C26F8E484 /* ViewController+HotCocoa.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38F90FA42B20BB75AD7ABEA /* ViewController+HotCocoa.swift */; };
+		C38F949FFF76C7189C41671B /* ViewController+HotCocoa.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38F90FA42B20BB75AD7ABEA /* ViewController+HotCocoa.swift */; };
+		C38F9746C34106742A749A59 /* Abstraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38F9FD377DDD3D4A03E099A /* Abstraction.swift */; };
+		C38F98CAC125806E6D9F8C21 /* Abstraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38F9FD377DDD3D4A03E099A /* Abstraction.swift */; };
+		C38F9C55BB767A1C7AD8E2C2 /* ViewController+HotCocoa.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38F90FA42B20BB75AD7ABEA /* ViewController+HotCocoa.swift */; };
 		E3C91030214ECA4800FCCA60 /* HotCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3C91026214ECA4800FCCA60 /* HotCocoa.framework */; };
 		E3C91035214ECA4800FCCA60 /* HotCocoaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C91034214ECA4800FCCA60 /* HotCocoaTests.swift */; };
 		E3C91037214ECA4800FCCA60 /* HotCocoa.h in Headers */ = {isa = PBXBuildFile; fileRef = E3C91029214ECA4800FCCA60 /* HotCocoa.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -16,6 +22,9 @@
 		E3C9106F214ECD3900FCCA60 /* HotCocoa_macOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C9106E214ECD3900FCCA60 /* HotCocoa_macOSTests.swift */; };
 		E3C91078214ECDF700FCCA60 /* HotCocoa.h in Headers */ = {isa = PBXBuildFile; fileRef = E3C91029214ECA4800FCCA60 /* HotCocoa.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E3C91079214ECDF800FCCA60 /* HotCocoa.h in Headers */ = {isa = PBXBuildFile; fileRef = E3C91029214ECA4800FCCA60 /* HotCocoa.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E3C91082214ED58900FCCA60 /* View+HotCocoa.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C91081214ED58900FCCA60 /* View+HotCocoa.swift */; };
+		E3C91083214ED58900FCCA60 /* View+HotCocoa.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C91081214ED58900FCCA60 /* View+HotCocoa.swift */; };
+		E3C91084214ED58900FCCA60 /* View+HotCocoa.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C91081214ED58900FCCA60 /* View+HotCocoa.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +52,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C38F90FA42B20BB75AD7ABEA /* ViewController+HotCocoa.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ViewController+HotCocoa.swift"; sourceTree = "<group>"; };
+		C38F9FD377DDD3D4A03E099A /* Abstraction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Abstraction.swift; sourceTree = "<group>"; };
 		E3C91026214ECA4800FCCA60 /* HotCocoa.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HotCocoa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3C91029214ECA4800FCCA60 /* HotCocoa.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HotCocoa.h; sourceTree = "<group>"; };
 		E3C9102A214ECA4800FCCA60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -57,6 +68,7 @@
 		E3C91069214ECD3900FCCA60 /* HotCocoa-macOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HotCocoa-macOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3C9106E214ECD3900FCCA60 /* HotCocoa_macOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotCocoa_macOSTests.swift; sourceTree = "<group>"; };
 		E3C91070214ECD3900FCCA60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3C91081214ED58900FCCA60 /* View+HotCocoa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+HotCocoa.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +150,7 @@
 				E3C9107A214ECF0600FCCA60 /* Extensions */,
 				E3C91029214ECA4800FCCA60 /* HotCocoa.h */,
 				E3C9102A214ECA4800FCCA60 /* Info.plist */,
+				C38F9FD377DDD3D4A03E099A /* Abstraction.swift */,
 			);
 			path = HotCocoa;
 			sourceTree = "<group>";
@@ -172,6 +185,8 @@
 		E3C9107A214ECF0600FCCA60 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				C38F90FA42B20BB75AD7ABEA /* ViewController+HotCocoa.swift */,
+				E3C91081214ED58900FCCA60 /* View+HotCocoa.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -417,6 +432,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C38F9746C34106742A749A59 /* Abstraction.swift in Sources */,
+				E3C91082214ED58900FCCA60 /* View+HotCocoa.swift in Sources */,
+				C38F949FFF76C7189C41671B /* ViewController+HotCocoa.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,6 +450,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C38F92CD5C779C31DE6A53DC /* Abstraction.swift in Sources */,
+				E3C91083214ED58900FCCA60 /* View+HotCocoa.swift in Sources */,
+				C38F93449693C36C26F8E484 /* ViewController+HotCocoa.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -447,6 +468,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C38F98CAC125806E6D9F8C21 /* Abstraction.swift in Sources */,
+				E3C91084214ED58900FCCA60 /* View+HotCocoa.swift in Sources */,
+				C38F9C55BB767A1C7AD8E2C2 /* ViewController+HotCocoa.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -693,7 +717,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "HotCocoa-tvOS/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/HotCocoa/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -719,7 +743,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "HotCocoa-tvOS/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/HotCocoa/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -785,7 +809,7 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = "HotCocoa-macOS/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/HotCocoa/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -812,7 +836,7 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = "HotCocoa-macOS/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/HotCocoa/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
