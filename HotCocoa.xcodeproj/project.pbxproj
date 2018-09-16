@@ -43,6 +43,7 @@
 		E3C91082214ED58900FCCA60 /* View+HotCocoa.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C91081214ED58900FCCA60 /* View+HotCocoa.swift */; };
 		E3C91083214ED58900FCCA60 /* View+HotCocoa.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C91081214ED58900FCCA60 /* View+HotCocoa.swift */; };
 		E3C91084214ED58900FCCA60 /* View+HotCocoa.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C91081214ED58900FCCA60 /* View+HotCocoa.swift */; };
+		E3C91086214EF0AA00FCCA60 /* UserDefaults+HotCocoa.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C91085214EF0AA00FCCA60 /* UserDefaults+HotCocoa.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -93,6 +94,7 @@
 		E3C9106E214ECD3900FCCA60 /* HotCocoa_macOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotCocoa_macOSTests.swift; sourceTree = "<group>"; };
 		E3C91070214ECD3900FCCA60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E3C91081214ED58900FCCA60 /* View+HotCocoa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+HotCocoa.swift"; sourceTree = "<group>"; };
+		E3C91085214EF0AA00FCCA60 /* UserDefaults+HotCocoa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserDefaults+HotCocoa.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -225,6 +227,7 @@
 				C38F9235DEF53828663FD4B8 /* Window+HotCocoa.swift */,
 				C38F93CDF2C1CAB15E1D972D /* Button+HotCocoa.swift */,
 				C38F9FAAFBFC89338780C31A /* TextField.swift */,
+				E3C91085214EF0AA00FCCA60 /* UserDefaults+HotCocoa.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -474,6 +477,7 @@
 				E3C91082214ED58900FCCA60 /* View+HotCocoa.swift in Sources */,
 				C38F949FFF76C7189C41671B /* ViewController+HotCocoa.swift in Sources */,
 				C38F97956D7E277AB5F95F68 /* Color+HotCocoa.swift in Sources */,
+				E3C91086214EF0AA00FCCA60 /* UserDefaults+HotCocoa.swift in Sources */,
 				C38F917A5D62FBD4C00F625A /* Window+HotCocoa.swift in Sources */,
 				C38F9E40AE751B487779127A /* Button+HotCocoa.swift in Sources */,
 				C38F9DB8ED16EC345A086966 /* TextField.swift in Sources */,
