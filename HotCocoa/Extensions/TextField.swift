@@ -18,24 +18,25 @@
 //    OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 //    THE SOFTWARE.
 
-import Foundation
-
 #if os(macOS)
     import AppKit
-
-    public typealias HCButton = NSButton
-    public typealias HCColor = NSColor
-    public typealias HCTextField = NSTextField
-    public typealias HCViewController = NSViewController
-    public typealias HCView = NSView
-    public typealias HCWindow = NSWindow
 #else
     import UIKit
-
-    public typealias HCButton = UIButton
-    public typealias HCColor = UIColor
-    public typealias HCTextField = UITextField
-    public typealias HCViewController = UIViewController
-    public typealias HCView = UIView
-    public typealias HCWindow = UIWindow
 #endif
+
+public extension HCTextField {
+    #if os(macOS)
+    public var text: String {
+        get {
+            return stringValue
+        }
+        set {
+            stringValue = newValue
+        }
+    }
+
+    public var hasText: Bool {
+        return stringValue != ""
+    }
+    #endif
+}

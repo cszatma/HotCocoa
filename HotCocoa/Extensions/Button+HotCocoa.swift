@@ -18,24 +18,40 @@
 //    OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 //    THE SOFTWARE.
 
-import Foundation
-
 #if os(macOS)
     import AppKit
-
-    public typealias HCButton = NSButton
-    public typealias HCColor = NSColor
-    public typealias HCTextField = NSTextField
-    public typealias HCViewController = NSViewController
-    public typealias HCView = NSView
-    public typealias HCWindow = NSWindow
 #else
     import UIKit
-
-    public typealias HCButton = UIButton
-    public typealias HCColor = UIColor
-    public typealias HCTextField = UITextField
-    public typealias HCViewController = UIViewController
-    public typealias HCView = UIView
-    public typealias HCWindow = UIWindow
 #endif
+
+public extension HCButton {
+    #if os(iOS) || os(tvOS)
+    /// The borderWidth of the Button.
+    @IBInspectable public var borderWidth: CGFloat {
+        get {
+            return layer.borderWidth
+        }
+
+        set {
+            layer.borderWidth = newValue
+        }
+    }
+
+    /// The borderColor of the Button.
+    @IBInspectable public var borderColor: CGColor? {
+        get {
+            return layer.borderColor
+        }
+
+        set {
+            layer.borderColor = newValue
+        }
+    }
+
+    /// The current text that is displayed by the button.
+    public var text: String {
+        get { return self.titleLabel?.text ?? "" }
+        set { titleLabel?.text = newValue }
+    }
+    #endif
+}
