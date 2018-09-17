@@ -56,7 +56,7 @@ public extension HCColor {
      - hex: A string representing a 6-digit hexadecimal number value.
      - alpha: The opacity value of the color object on a scale from 0 to 100.
      */
-    public convenience init?(hex hexString: String, alpha: CGFloat = 100) {
+    public convenience init?(hexString: String, alpha: CGFloat = 100) {
         guard let hex = Int(hexString, radix: 16) else { return nil }
         self.init(r: CGFloat((hex >> 16) & 0xFF), g: CGFloat((hex >> 8) & 0xFF), b: CGFloat(hex & 0xFF), a: alpha/100)
     }

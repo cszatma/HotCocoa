@@ -48,13 +48,13 @@ public extension HCView {
     }
     
     /// The width of the view.
-    public var width: CGFloat {
+    public var frameWidth: CGFloat {
         get { return frame.width }
         set { frame.size.width = newValue }
     }
     
     /// The height of the view.
-    public var height: CGFloat {
+    public var frameHeight: CGFloat {
         get { return frame.height }
         set { frame.size.height = newValue }
     }
