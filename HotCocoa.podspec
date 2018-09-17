@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = 'HotCocoa'
-  s.version      = '0.1.0'
+  s.version      = '1.0.0'
   s.summary      = 'Sugar for Cocoa and Cocoa Touch.'
   s.description  = <<-DESC
       HotCocoa adds extensions to Cocoa and Cocoa Touch to improve functionality and make tasks simpler
